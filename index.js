@@ -19,7 +19,7 @@ bagCart.addEventListener("click", () => {
 cardBtn.forEach((value, index) => {
     value.addEventListener("click", () => {
         if (counter === 8) {
-            alert("limit of only 8 item")
+            alert("you can add only 8 item in Card")
         }
         else {
             counter++
